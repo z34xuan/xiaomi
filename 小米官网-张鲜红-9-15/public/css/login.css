@@ -1,0 +1,327 @@
+@charset "utf-8";
+/*
+ *开发者：张鲜红
+ *功能：登录界面样式
+ *时间：2017年9月20日
+ */
+.panel{
+    width:1100px;
+    height:98px;
+    margin:0 auto;
+}
+.logo{
+    width:200px;
+    height:98px;
+    background: url(https://account.xiaomi.com/static/res/7f6f2f5/account-static/respassport/acc-2014/img/mistore_logo.png) no-repeat;;
+}
+.logo a{
+    height:98px;
+    text-indent:-9999em;
+}
+.login_banner_panel{
+   background-image: url("//i8.mifile.cn/b2c-mimall-media/523923ee3d985386d832e082980e4de9.jpg");
+    width:100%;
+    height:588px;
+    position: absolute;
+    left:0;
+    top:98px;
+    background-repeat:no-repeat;
+    background-position: top center;
+}
+.login_banner_panel a{
+    height:588px;
+    text-indent:-9999em;
+}
+
+/*登录界面样式*/
+.wrap{
+    width:1100px;
+    height:525px;
+    position: relative;
+    margin:30px auto;
+}
+.register{
+    width:400px;
+    height:525px;
+
+
+    font-size:14px;
+    background: #fff;
+    position: absolute;
+    right:0;
+}
+.nav_tabs_panel{
+    width:400px;
+    height:82px;
+}
+.nav_tabs{
+    height:29px;
+    line-height: 82px;
+    padding:27px 0 24px;
+    text-align: center;
+    font-size:24px;
+    color: #e0e0e0;
+}
+.navtab_link{
+    color: #666;
+    font-size:24px;
+    position: relative;
+    top:-25px;
+    left:65px;
+}
+.navtab_link:hover{
+    color: #ff6700;
+}
+.line{
+    width:1px;
+    height:24px;
+    margin:5px 35px 0 42px;
+    border:1px solid #e0e0e0;
+    position: relative;
+    left:62px;
+
+    background: #e0e0e0;
+}
+
+/*账号登录样式*/
+.to-login{
+    width: 400px;
+    height: 443px;
+}
+/*表单样式*/
+form{
+    width:348px;
+    height:215px;
+    margin:0 auto;
+    position: relative;
+    top:60px;
+}
+input{
+    padding-left:10px;
+    width:334px;
+    height:50px;
+    margin:6px auto;
+    position: relative;
+    top:-16px;
+}
+.btnadpt{
+    width: 347px;
+    background: #f56600;
+    border:transparent;
+    cursor: pointer;
+    color: #fff;
+}
+.links_area{
+    line-height: 19px;
+    width: 205px;
+    height:19px;
+    float: right;
+
+    position: relative;
+    top:65px;
+}
+.links-area a,span{
+    float: left;
+
+}
+.outer-link{
+    width:78px;
+    height:16px;
+    margin:0 10px;
+    text-align: left;
+    font-size:13px;
+}
+.links-area span{
+    float: none;
+    font-size:13px;
+}
+.outer-link:hover{
+    color: #f56600;
+}
+/*其他登录方式样式*/
+.other_login_type{
+
+    width: 336px;
+    height: 20px;
+    position: relative;
+    top: 117px;
+    left: 30px;
+}
+.oth_type_tit{
+    border: 1px  solid;
+    border-color: #b0b0b0 transparent transparent transparent;
+    width: 309px;
+    height: 10px;
+    position: relative;
+    top: -18px;
+}
+.oth_type_txt{
+    font-size:14px;
+    color: #b0b0b0;
+    text-align: center;
+}
+/*扫码登录样式*/
+.Sweep_login_code{
+    background: #fff;
+    height:443px;
+    width:400px;
+    position: absolute;
+    top:82px;
+    display: none;
+    z-index:10;
+}
+.tabs_con{
+    width:100%;
+    height:313px;
+}
+.tab_qrcon{
+    width:100%;
+    height:235px;
+    text-align: center;
+    position: relative;
+    top:78px;
+}
+.code_img{
+    height:183px;
+    width:100%;
+}
+.oth_type_tit{
+    height:29px;
+}
+.custom_sub_txt{
+    width:400px;
+    height:19px;
+}
+.span{
+    height:20px;
+    width:165px;
+    margin:0 auto;
+}
+.custom_sub_txt p{
+    margin-top:5px;
+}
+.custom_sub_txt .color{
+    padding: 0 5px;
+    color: #ff6700;
+}
+.custom_sub_txt .install{
+    width:100%;
+    height:30px;
+    line-height: 30px;
+    font-size:14px;
+    color: #757575;
+}
+.oth_type_links{
+    width:100%;
+    height:36px;
+    position: relative;
+    top: -20px;
+    padding-top:3px;
+    text-align: center;
+}
+.oth_type_links a{
+    width:30px;
+    height:30px;
+    display: inline-block;
+    margin:0 12px;
+    border-radius: 50%;
+    background: #757575;
+}
+.fa{
+    width:18px;
+    height:18px;
+    display: block;
+    position: relative;
+    top: 8px;
+    left: 5px;
+    color: #fff;
+}
+.qq:hover{
+    background: #0288d1;
+}
+.microblog:hover{
+    background-color: #d32f2f;
+}
+.alipay:hover{
+    background-color: #0ae;
+}
+.wechat:hover{
+    background-color: #00d20d;
+}
+.nav_tabs .navtab:focus ~ .Sweep_login_code{
+    display: block;
+}
+
+
+/*尾部样式*/
+.footer{
+    width:100%;
+    height:80px;
+    position: relative;
+    top: 30px;
+}
+.f-link-area{
+    width:100%;
+    height:19px;
+
+}
+.select-list{
+    width:100%;
+    height:19px;
+    text-align: center;
+}
+.select-list li{
+    display: inline-block;
+}
+.select-list li a,span{
+    float: left;
+    line-height:19px;
+    font-size:14px;
+}
+.select-list li a{
+    padding:0 10px;
+    color: #757575;
+}
+.select-list li a:hover{
+    color: #333;
+}
+.f-into{
+    display: inline-block;
+    width:100%;
+    height: 24px;
+    padding:10px;
+}
+.f-into p{
+    width:580px;
+    height:100%;
+    margin:0 auto;
+}
+.f-into a{
+    width:220px;
+    height:100%;
+}
+.f-into a,span{
+    float: left;
+    color: #757575;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../stylesheets/public.css">
+    <link rel="stylesheet" href="../stylesheets/shopping_cart.css">
+</head>
+<body>
+    <header></header>
+    <a class="shopping"></a>
+    <section>
+        <div class="shopping_cart">
+            <h2>我的购物车</h2>
+            <div class="blurb">
+                <table id="shoppingCar">
+                    <thead>
+                        <tr>
+                            <th class="icon_ckd">
+                                <input name="selector_btn" type="checkbox" class="selector_btn" checked>
+                                <i class="icon allCkd"></i>
+                            </th>
+                            <th class="th_width">商品信息</th>
+                            <th>单价</th>
+                            <th>数量</th>
+                            <th>金额</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div class="amount">
+                <div class="closing_left">
+                    <div>
+                        <input name="selector_btn" type="checkbox" class="selector_btn" checked>
+                        <i class="icon allCkd"></i>
+                        <span>全选</span>
+                    </div>
+                    <div>
+                        <p>已选商品
+                            <span class="count_sum">4</span>
+                            件
+                        </p>
+                    </div>
+                </div>
+                <div class="closing_right">
+                    <div class="right_mr">
+                        <p><span>合计</span>（不含运费）:</p>
+                        <span class="money">0</span>
+                    </div>
+                    <button type="button">去结算</button>
+                </div>
+            </div>
+        </div>
+        <div class="commend">
+            <h2>推荐商品</h2>
+            <div class="underline"></div>
+            <!--  推荐商品展示区 -->
+            <div class="commend_show">
+                <div class="article article_ml">
+                    <div class="table_chair"><img src="../images/example_3.jpg"></div>
+                    <p>
+                        <span>产品名称</span>
+                        <span class="product_price">￥680</span>
+                    </p>
+                </div>
+                <div class="article">
+                    <div class="brain_chair"><img src="../images/example_4.jpg"></div>
+                    <p>
+                        <span>产品名称</span>
+                        <span class="product_price">￥680</span>
+                    </p>
+                </div>
+                <div class="article">
+                    <div class="sofa_chair"><img src="../images/example_5.jpg"></div>
+                    <p>
+                        <span>产品名称</span>
+                        <span class="product_price">￥680</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+<script type="text/javascript" src="../plugin/jquery.js"></script>
+<script type="text/javascript" src="../javascripts/common.js"></script>
+<script type="text/javascript" src="../javascripts/shopping.js"></script>
+</body>
+</html>

@@ -1,0 +1,210 @@
+@charset "utf-8";
+main{
+    margin: 100px 0;
+    text-align: center;
+    width: 100%;
+    height: 659px;
+}
+main>h1{
+    width: 100%;
+    text-align: center;
+    font: normal 32px/140% "微软雅黑";
+    color: #333;
+}
+main>p{
+    margin-top: 10px;
+    text-align: center;
+    font: normal 18px/140% "微软雅黑";
+    color: #888;
+}
+main>p>a{
+    color: #4375ad;
+    cursor: pointer;
+    text-decoration: underline;
+}
+main>p>a:hover{
+    color: #679bd4;
+}
+form{
+    display: block;
+    width: 402px;
+    height: auto;
+    margin:0 auto 180px;
+    text-align: left;
+}
+form>div{
+    width: 402px;
+    height: 86px;
+}
+form>div>label{
+    display: block;
+    line-height: 200%;
+    font-size: 18px;
+    color: #333;
+}
+form>div>.accounts{
+    margin-top: 50px;
+}
+form>div>input{
+    width: 400px;
+    height: 50px;
+    font-size: 16px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #cccbca;
+    outline: none;
+    box-sizing: border-box;
+    padding: 0 10px;
+    transition: box-shadow .3s;
+}
+form>div>input:focus{
+    border: 1px solid #82c353;
+    box-shadow: 0 0 10px rgba(130, 195, 83, 0.6);
+}
+form>div>label:not(.accounts){
+    margin-top: 24px;
+}
+/*图形验证码*/
+.Verification-box{
+    position: relative;
+}
+.Verification-input{
+    width: 50%;
+}
+.Verification{
+    width: 120px;
+    position: absolute;
+    height: 49px;
+    line-height: 50px;
+    right: 68px;
+    top: 37px;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.2);
+    cursor: pointer;
+    text-align: center;
+}
+.Verification>span{
+    user-select: none;
+}
+/*提交按钮*/
+button{
+    margin-top: 50px;
+    width: 400px;
+    height: 64px;
+    background-color: #838281;
+    border: none;
+    text-align: center;
+    font: normal 32px/64px "微软雅黑";
+    color: #fff;
+    cursor: not-allowed;
+}
+/*提示信息*/
+form>div>div:nth-last-child(1){
+    display: flex;
+    align-items: flex-end;
+    opacity: 0;
+}
+form>div>div:nth-last-child(1)>span:nth-child(1){
+    display: flex;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: rgba(255,0,0,0.5);
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin:-1px 5px 0 0 ;
+}
+form>div>div:nth-last-child(1)>span:nth-child(2){
+    color: rgba(255,0,0,0.5);
+    font-size: 13px;
+}
+/*图形验证样式*/
+/*随机字体颜色*/
+.color-12{
+    color: #5f5750;
+    transform:skewX(20deg);
+}
+.color-13{
+    color: #ff6700;
+    transform:skewY(20deg);
+}
+.color-14{
+    color: #00d20d;
+    transform:skew(20deg,-20deg);
+}
+.color-15{
+    color: #ddb321;
+    transform:skewX(30deg);
+}
+.color-16{
+    color: #1b4e7c;
+    transform:skewX(50deg);
+}
+.color-17{
+    color: #466988;
+    transform:skew(60deg,-60deg);
+}
+.color-18{
+    color: #59758e;
+    transform:skew(90deg);
+
+}
+.color-19{
+    color: #af3a82;
+    transform:scale(0.5);
+
+}
+.color-20{
+    color: #152a3c;
+    transform:scale(0.8);
+}
+.color-21{
+    color: #531b71;
+    transform:scale(1.2);
+}
+.color-22{
+    color: #4d657b;
+    transform:rotateZ(180deg);
+}
+.color-23{
+    color: #394e31;
+    transform:rotateZ(90deg);
+}
+.color-24{
+    color: #285677;
+    transform:rotateZ(45deg);
+}
+.color-25{
+    color: #59758e;
+    transform:rotateZ(60deg);
+}
+.color-26{
+    color: #0e602a;
+    transform:scale(1.1);
+}
+.color-27{
+    color: #620883;
+    transform:scale(0.8);
+}
+.color-28{
+    color: #236c08;
+    transform:scale(0.9);
+}
+.color-29{
+    color: #466988;
+    transform:rotateZ(70deg);
+}
+.color-30{
+    color: #1b4e7c;
+    transform:rotateZ(120deg);
+}
+.color-31{
+    color: #185c3a;
+}
+.color-32{
+    color: #1a4307;
+}
+.color-33{
+    color: #6c6c18;
+}
